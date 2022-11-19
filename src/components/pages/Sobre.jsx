@@ -1,3 +1,5 @@
+import styles from '../cssPages/Sobre.module.css'
+
 function Sobre(){
     return(
         <>

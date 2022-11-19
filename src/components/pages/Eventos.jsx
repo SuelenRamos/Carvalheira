@@ -1,3 +1,5 @@
+import styles from '../cssPages/Eventos.module.css'
+
 function Eventos(){
     return(
         <>
