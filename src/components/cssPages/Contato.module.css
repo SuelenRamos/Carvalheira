@@ -1,0 +1,153 @@
+.containerContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Wrapper geral dos elementos*/
+.contatoWrapper{
+    margin: 0%;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+
+.contatoHeading h1{
+    font-size: 2.5rem;
+    color: #D9298A;
+}
+
+.contatoHeading span{
+    color: #D9D9D9;
+}
+
+/*Elementos do formulário (inputs)*/
+.formulario
+{
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+
+    /*Qual a cor que deve ser o texto ao ser digitado?
+    Vou deixar preto por enquanto*/
+    font-weight: 600;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*Pseudo elemento necessário para mudar a cor do placeholder!*/
+.formulario::placeholder{
+    color: #D9298A;
+    font-weight: 700;
+    opacity: 1;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: flex-start;
+}   
+
+.formulario input{
+    width: 100%;
+    margin: 1.2%;
+    height: 15%;
+    font-size: 1.4rem;
+}
+
+.formulario textarea{
+    width: 100%;
+    margin: 1.2%;
+    height: 15%;
+    font-size: 1.4rem;
+}
+
+#msgForm{
+    height: 150px;
+}
+
+#msgForm::placeholder{
+    position: relative;
+    top: -50px;
+}
+
+
+.formulario form{
+    /*temporário, tirar*/
+    margin: 10px 20px 10px 0;
+    width: 50%;
+    height: 100%;
+}
+
+.contatoImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.contatoImg img{
+    width: 100%;
+    position: inherit;
+}
+
+
+
+
+
+/* Botão enviar*/
+.contato-formulario-enviar{
+    background-color: #460571;
+    color: #D9D9D9;
+    width: 145px;
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+}
+
+.contato-formulario-enviar:hover{
+    color: #460571;
+    background-color: #D9D9D9;
+    transition: .2s;
+}
+
+
+
+@media(max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+    
+    .contato-formulario{
+        flex-direction: column;
+    }
+
+    .contato-formulario form{
+        /*temporário, tirar*/
+        margin: 10px 20px 10px 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contato-imagem{
+        display: none;
+    }
+
+    
+}

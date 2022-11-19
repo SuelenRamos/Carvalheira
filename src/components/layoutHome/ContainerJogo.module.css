@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Manrope-Bold';
+  src: url(../../FontesCarv/Manrope/Manrope-Bold.ttf);
+}
+
+.eventosProximos h2 {
+    font-family: 'Manrope-Bold';
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px;
+    text-shadow: 5px 30px 100px #D9298A, 0 0 40px #D9298A;
+    padding: 30px 160px 0px 0px;
+    text-shadow: 0 0 15px #D9298A, 0 0 30px #D9298A, 0 0 45px #D9298A;
+    margin-top: 13rem;
+  
+  }
+  
+  h2 #rosa {
+    color: #D9298A;
+    text-align: center;
+    background: none;
+  }
+  
+  .containerJogo {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  
+  .quadrado {
+  
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+  
+  .coluna1 {
+  
+    background-color: #131212;
+    width: 500px;
+    height: 630px;
+    padding: 50px 12px 33px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /*   margin-bottom: 600px;  */
+    position: relative;
+    bottom: 14%;
+    right: 5%;
+    margin-bottom: 30%;
+    border: 2px solid;
+    border-radius: 20px;
+     margin-top: -30px;
+    
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    font-size: 25px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to left, transparent 0%, #D9298A 200%);
+    border: none;
+    opacity: 0.1;
+    margin-top: 40%;
+    margin-left: 7%;
+  
+  }
+  
+  .arrow-right {
+    position: absolute;
+    top: 0px;
+    left: auto;
+    right: 9%;
+    background: linear-gradient(to right, transparent 0%, #D9298A 200%);
+  
+  
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+    transition: all 600ms ease-in-out;
+  }
+  
+  .item {
+    border-radius: 100%;
+    width: 50%;
+    flex-shrink: 0;
+  
+  
+  }
+  
+  
+  .eventos::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .eventos {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  
+  .coluna2 {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    top: -50%;
+    margin-bottom: 1%;
+    background: none;
+  
+  }
+  
+  .eventosProximos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    position: relative;
+ 
+    left: 28%;
+  
+    /*position: relative;
+      left: 85px;
+      top: 60px;
+      word-spacing: 5px;*/
+  }
+  
+  .eventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 16%;
+    right: 10%;
+    background: none;
+  
+  }
+  
+  #textoSlide {
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+    bottom: 58px;
+    color: #AC6CD7;
+    font-size: 16px;
+  
+    text-align: center;
+  }
+  
+  .fundo h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 6px;
+    margin-top: 2px;
+    color: white;
+  
+    /*   top: 340px; */
+  }
+  
+  #imgCartaz {
+    border: 6px solid white;
+    box-shadow: 0 0 25px #D9298A;
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: -25px;
+    left: 70px;
+  }
+  
+  #btnSlide {
+    background-color: #D9298A;
+    border-radius: 5px;
+    font-family: Manrope-SemiBold;
+    border-color: #460273;
+    padding: 6px 30px 6px 30px;
+    color: white;
+    position: relative;
+    bottom: 58px;
+    left: 38%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+  
+  }
+  
+  #btnSlide:hover {
+    box-shadow: 0 0 15px #D9298A;
+  }
+  
+  /* .coluna1 img{
+      padding: 15px;
+      position: relative;
+      bottom: 530px;
+      left: 3%;
+      right: 3%;
+      } */
+  
+  
+  #textoTitulo {
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    position: relative;
+    bottom: 50px;
+  
+  }
+  
+  .title {
+    background: none;
+    position: relative;
+    top: 43px;
+  }
+  
+  #buttle {
+    width: 150px;
+    position: relative;
+    left: 60px;
+    top: 210px;
+    cursor: pointer;
+    transition: all 300ms linear;
+  }
+  
+  #img1 {
+    border-radius: 100px;
+    position: relative;
+    top: 70px;
+    right: 150px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border: 4px solid #D9298A;
+  }
+  
+  #img1:hover {
+    box-shadow: 0 0 25px #D9298A;
+  }
+  
+  #img2 {
+    border-radius: 100px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border: 4px solid #D9298A;
+  }
+  
+  #img2:hover {
+    box-shadow: 0 0 25px #D9298A;
+  }
+  
+  #img3 {
+    border-radius: 100px;
+    position: relative;
+    bottom: 410px;
+    left: 60px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border: 4px solid #D9298A;
+  }
+  
+  #img3:hover {
+    box-shadow: 0 0 25px #D9298A;
+  }
+  
+  #img4 {
+    border-radius: 100px;
+    position: relative;
+    bottom: 420px;
+    left: 260px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border: 4px solid #D9298A;
+  }
+  
+  #img4:hover {
+    box-shadow: 0 0 25px #D9298A;
+  }
+
+
+.post{
+  margin-top: -12rem;
+}
