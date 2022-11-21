@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url('../../FontesCarv/Manrope/Manrope-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.sobre img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.titleSobre h1 {
+    font-family: 'Manrope-Bold';
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+#pink {
+    color: #D9298A;
+}
+
+.textSobre {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Manrope-Bold';
+    font-size: 1.5rem;
+    text-align: start;
+    padding: 2rem 3rem;
+
+}
+
+.btnCarv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 2.8rem;
+}
+
+#btnContact {
+    background-color: #D9298A;
+    color: #fff;
+    font-family: 'Manrope-Bold';
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+#btnContact:hover {
+    opacity: 0.5;
+}
+
+.patrocinadores h1 {
+    font-family: 'Manrope-Bold';
+    font-size: 2rem;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.logoPatrocinadores {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 7rem 5rem;
+
+    background-image: url('../../imagens/efeito.png');
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+}
+
+.logoPatrocinadores img {
+    width: 20%;
+}
+
+.bannerSobre {
+    width: 100%;
+}

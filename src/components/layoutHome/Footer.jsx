@@ -41,24 +41,24 @@ function Footer() {
                 </div>
                 <div className={styles.information}>
                     <h2>Contato:</h2>
-                    <Link to="/">
-                        <li className={styles.item}><FaMapMarkerAlt />  Av. Sul Gov. Cid Sampaio, 4921 - Imbiribeira, Recife - PE, 50770-011</li>
-                    </Link>
-                    <Link to="/">
-                        <li className={styles.item}><FaInstagram /> @Carvalheira</li>
-                    </Link>
-                    <Link to="/">
-                        <li className={styles.item}><FaTiktok /> Carvalheira - TikTok</li>
-                    </Link>
-                    <Link to="/">
-                        <li className={styles.item}><FaTwitter /> Twitter</li>
-                    </Link>
-                    <Link to="/">
-                        <li className={styles.item}><FaYoutube /> Canal Carvalheira</li>
-                    </Link>
-                    <Link to="/">
-                        <li className={styles.item}><FaEnvelope /> Email</li>
-                    </Link>
+                    <ul>
+                    <li>
+                        <Link className={styles.item}><FaMapMarkerAlt />  Av. Sul Gov. Cid Sampaio, 4921 - Imbiribeira, Recife - PE, 50770-011</Link>
+                    </li>
+                    <li>
+                        <Link className={styles.item}><FaInstagram /> @Carvalheira</Link>
+                    </li>
+                    <li>
+                        <Link className={styles.item}><FaTiktok /> Carvalheira - TikTok</Link>
+                    </li>
+                    
+                    <li>
+                        <Link className={styles.item}><FaYoutube /> Canal Carvalheira</Link>
+                    </li>
+                    <li>
+                        <Link className={styles.item}><FaEnvelope /> Email</Link>
+                    </li>
+                    </ul>
                 </div>
 
             </div>

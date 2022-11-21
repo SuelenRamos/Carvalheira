@@ -8,12 +8,20 @@ import logo from '../../MidiasCarv/logo/logo.png'
 
 function Navbar() {
     return (
+        <header>
         <nav className={styles.navbar}>
-            <Container>
+            <div className={styles.input}>
+            <input type="checkbox" id="check"/>
+            </div>
+           
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
                 <Link to="/">
-                    <img src={logo} alt="Carvalheira" />
+                    <img id={styles.img}src={logo} alt="Carvalheira" />
                 </Link>
-                <ul className={styles.list}>
+                <div className={styles.list}>
+                <ul>
                     <li className={styles.item}>
                         <Link to="/">Home</Link>
                     </li>
@@ -27,13 +35,15 @@ function Navbar() {
                         <Link to="/contato">Contato</Link>
                     </li>
                 </ul>
+                </div>
                 <Link to="/">
                     <button className={styles.btn}>
                         INGRESSOS
                     </button>
                 </Link>
-            </Container>
+         
         </nav>
+        </header>
     )
 }
 export default Navbar;

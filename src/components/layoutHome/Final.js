@@ -3,7 +3,7 @@ import galeria1 from '../../imgsFinais/img1.png'
 import galeria2 from '../../imgsFinais/img2.png'
 import galeria3 from '../../imgsFinais/img3.png'
 import galeria4 from '../../imgsFinais/img4.png'
-
+import { Link } from 'react-router-dom'
 
 function Final(){
     return(
@@ -14,7 +14,7 @@ function Final(){
                  <span id={styles.pink}>Curtiu?</span>
               </p>
               <div className={styles.buttonFinal}>
-                 <button id={styles.btnFinal} type="button">Confira nossos eventos!</button>
+                 <Link to="/Eventos" ><button id={styles.btnFinal} type="button">Confira nossos eventos!</button> </Link>
               </div>
            </div>
            <div className={styles.galeriaFinal}>

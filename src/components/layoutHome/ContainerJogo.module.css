@@ -157,11 +157,11 @@
   }
   
   #textoSlide {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope-Bold', sans-serif;
     position: relative;
     bottom: 58px;
     color: #AC6CD7;
-    font-size: 16px;
+    font-size: 13px;
   
     text-align: center;
   }
@@ -169,7 +169,7 @@
   .fundo h3 {
     font-family: 'Manrope', sans-serif;
     font-size: 6px;
-    margin-top: 2px;
+    margin-top: 6px;
     color: white;
   
     /*   top: 340px; */
@@ -223,7 +223,7 @@
     text-align: center;
     background: none;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
   
   }
   
@@ -233,7 +233,7 @@
     top: 43px;
   }
   
-  #buttle {
+  .bottle {
     width: 150px;
     position: relative;
     left: 60px;
@@ -241,6 +241,10 @@
     cursor: pointer;
     transition: all 300ms linear;
   }
+
+.arrowBtnLeft, .arrowBtnRight {
+   visibility: hidden;
+}
   
   #img1 {
     border-radius: 100px;
@@ -260,7 +264,7 @@
   #img2 {
     border-radius: 100px;
     position: relative;
-    top: 80px;
+    top: 85px;
     left: 60px;
     width: 160px;
     height: 160px;
@@ -275,7 +279,7 @@
   #img3 {
     border-radius: 100px;
     position: relative;
-    bottom: 410px;
+    bottom: 430px;
     left: 60px;
     width: 160px;
     height: 160px;

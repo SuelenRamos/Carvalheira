@@ -12,4 +12,9 @@
      
 }
 
- 
+@media screen and (min-width:320px) {
+    .container{
+        margin: 0px;
+        padding: 0px;;
+     }
+}

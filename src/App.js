@@ -22,13 +22,13 @@ function App() {
       <Route exact path="/" element={<Home/>}>
 
       </Route>
-      <Route exact path="/eventos" element={<Eventos/>}>
+      <Route  path="/eventos" element={<Eventos/>}>
 
       </Route>
-      <Route exact path="/sobre" element={<Sobre/>}>
+      <Route  path="/sobre" element={<Sobre/>}>
         
       </Route>
-      <Route exact path="/contato" element={<Contato/>}>
+      <Route  path="/contato" element={<Contato/>}>
 
       </Route>
     </Routes>

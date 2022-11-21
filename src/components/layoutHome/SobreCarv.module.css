@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url('../../FontesCarv/Manrope/Manrope-Bold.ttf');
+}
+
 .containerSobre{
    width: 100vw;
    height: 950px;
@@ -38,36 +43,50 @@
 
 .v1 {
     position: relative;
-    top: -1130px;
-    right: 30%;
+    top: -67.5rem;
+    right: 9.7rem;
     z-index: 5;
  
 }
 
 .v2 {
      position: relative;
-     top: -880px;
-     right: 180px;
+     top: -52rem;
+     right: 10rem;
   
 }
 
 .v3 {
     position: relative;
-    top: -610px;
-    right: 200px;
+    top: -35rem;
+    right: 12rem;
     z-index: 3;
       
 }
 
 .v4 {
     position: relative;
-    top: -250px;
+    top: -14rem;
     right: 250px;
+    animation: pisca 1.5s infinite;
 }
 
+@keyframes pisca {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
 #btnTxt{
     display: block;
-    color: white;
+  
     width: 200px;
     height: 60px;
     background: #D9298A;
@@ -78,6 +97,12 @@
     font-size: 16px;
     box-shadow: 0 0px 15px pink;
     cursor: pointer;
+   
+}
+a {
+    font-family: 'Manrope-Bold';
+    text-decoration: none;
+    color: white;
 }
 
 #btnTxt:hover{

@@ -9,11 +9,9 @@ import { useState } from 'react';
 import Container from './Container'
  
 
-
-
 function ContainerJogo() {
     const [link, setLink] = useState('https://open.spotify.com/user/padraocarvalheira');
-    let spin = document.getElementById('buttle');
+    let spin = document.getElementById('bottle');
     const position = [989.873, 722.352, 898.749, 810.372]
     let number = 0;
     const [random, setRandom] = useState(0);
@@ -21,8 +19,8 @@ function ContainerJogo() {
     const [title, setTitle] = useState('Numanice');
     const [text, setText] = useState('Chegou a vez da gente pagodear forte, esquecer os problemas e ficar 100% nice com as canetadas da @ludmilla. E o pass pra você não perder esse dia por NA-DA está disponível a partir de JÁ.  O comentário é fod@, é o #Numanice na cidade! #AlguémMeBelisca? ');
     const [ingresso, setIngresso] = useState('https://www.ingresse.com/numanice-recife')
-    
-  
+ 
+ 
  
     const trocarImg1 = () => {
  
@@ -102,6 +100,7 @@ function ContainerJogo() {
        setRandom(number) //random (variavél que está fora da função) recebe o mesmo valor de number
        spin.style.transform = `rotate(${position[number]}deg)`
        mudarCartaz();
+      
  
     }
 
@@ -111,8 +110,8 @@ function ContainerJogo() {
             <div className={styles.quadrado}>
 
                 <div className={styles.coluna1}>
-                    <button class="arrow-left control" aria-label="Previous image">◀</button>
-                    <button class="arrow-right control" aria-label="Previous image">▶</button>
+                    <button className={styles.arrowBtnLeft} aria-label={styles.PreviousImage}>◀</button>
+                    <button className={styles.arrowBtnRight} aria-label={styles.PreviousImage}>▶</button>
                     <img id={styles.imgCartaz} class={styles.item} src={image} width="500" height="600" alt="Imagem do evento escolhido" />
                     <div className={styles}>
 
@@ -131,7 +130,7 @@ function ContainerJogo() {
                         <div className={styles.eventosProximos}>
                             <h2>PRÓXIMOS <span id={styles.rosa}>   EVENTOS</span></h2>
                         </div>
-                        <img onClick={girarGarrafa} id={styles.buttle} src={garrafa} width="120" alt="Imagem da garrafa" />
+                        <img onClick={girarGarrafa} className={styles.bottle} id="bottle" src={garrafa} width="120" alt="Imagem da garrafa" />
                         <img onClick={trocarImg1} id={styles.img1} src={imagem1} width="100" height="100" alt="evento do jogo" />
                         <img onClick={trocarImg2} id={styles.img2} src={imagem2} width="100" height="100" alt="evento do jogo" />
                         <img onClick={trocarImg3} id={styles.img3}src={imagem3} width="100" height="100" alt="evento do jogo" />
