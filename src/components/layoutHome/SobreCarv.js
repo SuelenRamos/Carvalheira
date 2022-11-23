@@ -38,7 +38,7 @@ function SobreCarv() {
       </div>
       <div className={styles.imgAbout}>
         <div className="imgLateral">
-          <img src={ImagemLateral} alt="imagem" height="550px" width="380px" />
+          <img src={ImagemLateral} alt="imagem" height="550px" width="380px" id={styles.ImagemLateral} />
           <img className={styles.v4} src={vector4} />
           <img className={styles.v3} src={vector3} />
           <img className={styles.v2} src={vector2} />
